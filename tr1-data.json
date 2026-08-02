@@ -1,0 +1,235 @@
+{
+  "section": "TR1",
+  "title": "Degree and Radian Measure",
+  "learningObjective": "Convert between degrees and radians. Draw angles in standard position.",
+  "faqs": [
+    {
+      "id": "faq-1",
+      "category": "conceptual",
+      "question": "What is an angle, and what are the initial side, terminal side, and vertex?",
+      "answer": "An angle is formed by two rays joined at a shared starting point, called the vertex. In trigonometry, we think of an angle as a rotation: the initial side is where the angle starts (before any rotation), and the terminal side is where the angle ends up after rotating.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"80\" y1=\"180\" x2=\"230\" y2=\"180\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"80\" y1=\"180\" x2=\"163.6\" y2=\"80.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"80\" cy=\"180\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"50\" y=\"200\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">vertex</text><text x=\"170\" y=\"200\" font-size=\"12\" fill=\"#0a3f52\" font-weight=\"600\">initial side</text><text x=\"165\" y=\"75\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"600\">terminal side</text></svg></div><p class=\"graph-caption\">The angle is the rotation from the initial side to the terminal side, pivoting at the vertex.</p>"
+    },
+    {
+      "id": "faq-2",
+      "category": "conceptual",
+      "question": "What does it mean for an angle to be in standard position?",
+      "answer": "An angle is in standard position when its vertex sits at the origin and its initial side lies exactly along the positive x-axis. This gives every angle a consistent, predictable starting point, which is essential once you start comparing angles or plotting them on the coordinate plane.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"150\" y1=\"150\" x2=\"100\" y2=\"63.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"150\" cy=\"150\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"155\" y=\"170\" font-size=\"11\" fill=\"#1a6b6b\" font-weight=\"700\">vertex at origin</text><text x=\"255\" y=\"155\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">initial side</text><text x=\"55\" y=\"55\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">terminal side</text></svg></div><p class=\"graph-caption\">Standard position: vertex at the origin, initial side along the positive x-axis.</p>"
+    },
+    {
+      "id": "faq-3",
+      "category": "conceptual",
+      "question": "Why do some angles have a positive measure and others a negative measure?",
+      "answer": "The sign of an angle tells you which direction it was rotated. An angle measured counterclockwise from the initial side is positive; an angle measured clockwise is negative. It's the same amount of rotation either way — the sign just records which direction you turned.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"280\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#4a4a5a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 0 167.5,119.7\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\"/><text x=\"185\" y=\"100\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">+60&deg;</text><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"236.6\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 1 167.5,180.3\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"2\"/><text x=\"185\" y=\"210\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">&minus;60&deg;</text></svg></div><p class=\"graph-caption\">Counterclockwise (teal) is positive; clockwise (orange) is negative — same size angle, opposite direction.</p>"
+    },
+    {
+      "id": "faq-4",
+      "category": "conceptual",
+      "question": "What is a radian, and how is it actually defined?",
+      "answer": "One radian is the measure of a central angle that cuts out an arc exactly as long as the circle's radius. Picture taking the radius of a circle, bending it around the edge of the circle like a piece of string, and marking where it ends — the angle formed at the center is exactly 1 radian.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#d4d4d8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#0a3f52\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"204\" y2=\"65.9\" stroke=\"#0a3f52\" stroke-width=\"2.5\"/><path d=\"M 250,150 A 100,100 0 0 0 204,65.9\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"4\"/><text x=\"255\" y=\"110\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">arc length = r</text><text x=\"170\" y=\"140\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">1 radian</text><text x=\"195\" y=\"155\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">r</text></svg></div><p class=\"graph-caption\">When the arc (orange) is exactly as long as the radius, the angle it creates is defined as 1 radian — about 57.3°.</p>"
+    },
+    {
+      "id": "faq-5",
+      "category": "conceptual",
+      "question": "Why are there 2π radians in a full circle?",
+      "answer": "This comes straight from the circumference formula. The circumference of a circle is C = 2πr — in other words, the full distance around the circle is always 2π times the radius. Since one radian is defined as the angle created by an arc equal to one radius (faq-4), and the whole circle's arc length is 2π radii, a full circle must measure exactly 2π radians."
+    },
+    {
+      "id": "faq-6",
+      "category": "sticking-points",
+      "question": "How do I convert an angle from degrees to radians?",
+      "answer": "Multiply the degree measure by π/180°. This works because 180° and π radians represent the exact same amount of rotation (half a circle), so π/180° is just a conversion factor equal to 1.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( 60° \\) to radians:</p><p class=\"math-line\">\\( 60° \\times \\dfrac{\\pi}{180°} = \\dfrac{60\\pi}{180} = \\dfrac{\\pi}{3} \\)</p></div>"
+    },
+    {
+      "id": "faq-7",
+      "category": "sticking-points",
+      "question": "How do I convert an angle from radians to degrees?",
+      "answer": "Multiply the radian measure by 180°/π — the same conversion factor from faq-6, just flipped upside down since you're converting in the opposite direction.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( \\dfrac{\\pi}{6} \\) to degrees:</p><p class=\"math-line\">\\( \\dfrac{\\pi}{6} \\times \\dfrac{180°}{\\pi} = \\dfrac{180°}{6} = 30° \\)</p></div>"
+    },
+    {
+      "id": "faq-8",
+      "category": "sticking-points",
+      "question": "How do I sketch an angle in standard position if I'm given its measure in degrees?",
+      "answer": "Start by drawing the initial side along the positive x-axis. Then estimate what fraction of a full circle (360°) the angle represents, and rotate the terminal side that fraction of the way around — counterclockwise if positive, clockwise if negative. You don't need to be perfectly precise; the goal is to land in the correct quadrant with a reasonable estimate of the angle.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Sketch \\( 120° \\): since \\( 120° \\) is a bit more than a quarter turn (90°) but less than a half turn (180°), rotate the terminal side counterclockwise into Quadrant II, closer to the negative x-axis than the positive y-axis.</p></div>"
+    },
+    {
+      "id": "faq-9",
+      "category": "sticking-points",
+      "question": "How do I sketch an angle in standard position if I'm given its measure in radians?",
+      "answer": "Convert the radian measure to degrees first (faq-7) if that helps you visualize it, or use benchmark radian angles you're building familiarity with: π/2 is a quarter turn, π is a half turn, 3π/2 is three-quarters of a turn, and 2π is a full circle. Then estimate where your angle falls relative to those benchmarks."
+    },
+    {
+      "id": "faq-10",
+      "category": "sticking-points",
+      "question": "How do I know which direction to draw an angle — clockwise or counterclockwise?",
+      "answer": "Check the sign. A positive angle measure always means counterclockwise rotation from the initial side; a negative angle measure always means clockwise rotation. If no sign is written, assume positive (counterclockwise)."
+    },
+    {
+      "id": "faq-11",
+      "category": "sticking-points",
+      "question": "Why do radian measures often involve π, and what does a value like 7π/6 actually mean?",
+      "answer": "Since a full circle is exactly 2π radians, most radian angles you'll work with are convenient fractions of 2π — which naturally keeps π in the expression rather than converting to a decimal. A value like 7π/6 means: take π (a half turn, or 6π/6) and add one more sixth of π on top of it, landing just past the halfway point of the circle. Thinking of the denominator as \"how many equal slices the circle is cut into\" and the numerator as \"how many of those slices you've rotated through\" makes these values much easier to visualize."
+    },
+    {
+      "id": "faq-12",
+      "category": "connections",
+      "question": "How does everything in TR1 set up the rest of the trig unit?",
+      "answer": "Standard position and the degree/radian relationship are the language every later trig topic is written in. TR2's coterminal angles only make sense once you understand rotation and standard position. TR3's right-triangle trig and TR5's unit circle both rely on angles being placed and measured consistently. Radians specifically become essential once you reach calculus, where nearly all trig work is done exclusively in radians."
+    },
+    {
+      "id": "faq-13",
+      "category": "connections",
+      "question": "Why do radians matter beyond just being another unit for angles?",
+      "answer": "Radians aren't just a different way to write the same angle — they connect an angle directly to actual distance along a circle, since the radian definition is built from arc length and radius. This connection becomes essential in later math and physics: arc length, angular velocity, and eventually calculus with trig functions all rely on radians specifically, because degrees don't have that same built-in relationship to distance."
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid-1",
+      "title": "Angles in Standard Position",
+      "url": "https://www.youtube.com/watch?v=Xtk1PVRoDLQ",
+      "description": "An introduction to drawing and identifying angles in standard position.",
+      "category": "standard-position",
+      "relatedFaqs": [
+        "faq-1",
+        "faq-2"
+      ]
+    },
+    {
+      "id": "vid-2",
+      "title": "Plot Positive Angles in Degrees in Standard Position and Convert to Radians",
+      "url": "https://youtu.be/fMQ3l6V8kCo",
+      "description": "Sketching a positive angle given in degrees, then converting it to radians.",
+      "category": "standard-position",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-8"
+      ]
+    },
+    {
+      "id": "vid-3",
+      "title": "Plot Negative Angles in Degrees in Standard Position and Convert to Radians",
+      "url": "https://youtu.be/-iwa-u0vDIw",
+      "description": "Sketching a negative (clockwise) angle given in degrees, then converting it to radians.",
+      "category": "standard-position",
+      "relatedFaqs": [
+        "faq-3",
+        "faq-6",
+        "faq-10"
+      ]
+    },
+    {
+      "id": "vid-4",
+      "title": "Plot Positive Angles in Radians in Standard Position and Convert to Degrees",
+      "url": "https://youtu.be/SaGQq26jjf0",
+      "description": "Sketching a positive angle given in radians, then converting it to degrees.",
+      "category": "standard-position",
+      "relatedFaqs": [
+        "faq-7",
+        "faq-9"
+      ]
+    },
+    {
+      "id": "vid-5",
+      "title": "Plot Negative Angles in Radians in Standard Position and Convert to Degrees",
+      "url": "https://youtu.be/qkMJhj9L0eQ",
+      "description": "Sketching a negative angle given in radians, then converting it to degrees.",
+      "category": "standard-position",
+      "relatedFaqs": [
+        "faq-3",
+        "faq-7",
+        "faq-10"
+      ]
+    },
+    {
+      "id": "vid-6",
+      "title": "Radian Measure",
+      "url": "https://www.youtube.com/watch?v=nAJqXtzwpXQ",
+      "description": "An introduction to the radian as a unit of angle measure, built from arc length and radius.",
+      "category": "radians-conversion",
+      "relatedFaqs": [
+        "faq-4",
+        "faq-5"
+      ]
+    },
+    {
+      "id": "vid-7",
+      "title": "Converting Angles in Degree Measure to Radian Measure",
+      "url": "https://www.youtube.com/watch?v=25NuDwXAja0",
+      "description": "Worked examples converting angles from degrees to radians.",
+      "category": "radians-conversion",
+      "relatedFaqs": [
+        "faq-6"
+      ]
+    },
+    {
+      "id": "vid-8",
+      "title": "Convert Angles in Radian Measure to Degree Measure",
+      "url": "https://www.youtube.com/watch?v=I-36SsQ9KgQ",
+      "description": "Worked examples converting angles from radians to degrees.",
+      "category": "radians-conversion",
+      "relatedFaqs": [
+        "faq-7"
+      ]
+    }
+  ],
+  "apps": [
+    {
+      "id": "app-1",
+      "title": "Radian Degree Converter",
+      "url": "https://radiandegreetrigmaster.netlify.app/",
+      "description": "Practice converting between degrees and radians with instant feedback.",
+      "relatedFaqs": [
+        "faq-6",
+        "faq-7"
+      ]
+    },
+    {
+      "id": "app-2",
+      "title": "Coterminal Angles",
+      "url": "https://coterminalunitcircle.netlify.app/",
+      "description": "Practice plotting angles in standard position and identifying coterminal angles on the unit circle.",
+      "relatedFaqs": [
+        "faq-2",
+        "faq-3",
+        "faq-8",
+        "faq-9"
+      ]
+    }
+  ],
+  "prompts": {
+    "guided": [
+      {
+        "id": "prompt-1",
+        "title": "Practice Standard Position",
+        "prompt": "I'm learning about angles in standard position. Give me an angle measure in degrees and ask me to describe how I'd sketch it — which quadrant the terminal side lands in, and whether I'd rotate clockwise or counterclockwise. Then give me a few more practice angles, including at least one negative angle."
+      },
+      {
+        "id": "prompt-2",
+        "title": "Understand the Radian Definition",
+        "prompt": "I'm learning what a radian actually is. Can you walk me through the definition step by step — why does wrapping the radius around the circle's edge create an angle of exactly 1 radian? Then help me see why that means a full circle is 2π radians."
+      },
+      {
+        "id": "prompt-3",
+        "title": "Practice Degree-Radian Conversion",
+        "prompt": "I'm learning to convert between degrees and radians. Give me an angle in degrees and walk me through converting it to radians using the π/180° factor. Then give me an angle in radians and walk me through converting it back to degrees. Give me several more practice problems and check my work."
+      },
+      {
+        "id": "prompt-4",
+        "title": "Build Intuition for Radian Benchmarks",
+        "prompt": "I'm trying to build a mental picture of common radian angles like π/2, π, 3π/2, and 2π. Can you help me visualize each one as a fraction of a full turn around a circle? Then give me a radian value like 7π/6 or 5π/4 and help me figure out roughly where it lands without converting to degrees first."
+      },
+      {
+        "id": "prompt-5",
+        "title": "Connect Radians to Arc Length",
+        "prompt": "I've learned that a radian is defined using arc length and radius. Can you explain why this connection matters — like why radians are the natural unit to use when relating an angle to an actual distance traveled around a circle? Use a real-world example if you can, like a wheel rotating."
+      }
+    ],
+    "open": [
+      {
+        "id": "open-1",
+        "title": "Create Your Own",
+        "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section TR1 (Degree and Radian Measure). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
+      }
+    ]
+  }
+}
