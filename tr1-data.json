@@ -231,5 +231,227 @@
         "prompt": "Use the AI tool of your choice. Start by describing what you're confused about or curious about from Section TR1 (Degree and Radian Measure). Ask the AI to help you explore that idea. Share what you learned and what surprised you."
       }
     ]
-  }
+  },
+  "paths": [
+    {
+      "id": "TR1",
+      "label": "TR1: Degree and Radian Measure",
+      "sectionLabel": "TR1, Degree and Radian Measure",
+      "intro": "Builds to the TR1 check: drawing angles in standard position and converting between degrees and radians.",
+      "graphs": {
+        "d135": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 135° in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant II.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"49.90\" y2=\"49.90\"/><circle class=\"g-dot\" cx=\"49.90\" cy=\"49.90\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.93,108.15 135.74,106.30 135.41,104.47 134.95,102.67 134.36,100.91 133.65,99.20 132.82,97.54 131.87,95.94 130.81,94.42 129.65,92.97 128.38,91.62 127.03,90.35 125.58,89.19 124.06,88.13 122.46,87.18 120.80,86.35 119.09,85.64 117.33,85.05 115.53,84.59 113.70,84.26 111.85,84.07 110.00,84.00 108.15,84.07 106.30,84.26 104.47,84.59 102.67,85.05 100.91,85.64 99.20,86.35 97.54,87.18 95.94,88.13 94.42,89.19 92.97,90.35 91.62,91.62\"/><polygon class=\"g-archead\" points=\"91.62,91.62 95.15,81.01 102.22,88.08\"/><text class=\"g-anglelabel\" x=\"128.4\" y=\"69.7\" text-anchor=\"middle\">135°</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "d300": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 300° in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant IV.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"152.50\" y2=\"183.61\"/><circle class=\"g-dot\" cx=\"152.50\" cy=\"183.61\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.19 135.75,106.38 135.43,104.59 134.99,102.83 134.43,101.11 133.75,99.42 132.96,97.79 132.05,96.22 131.03,94.72 129.92,93.29 128.70,91.94 127.40,90.68 126.01,89.51 124.54,88.45 123.00,87.48 121.40,86.63 119.74,85.89 118.03,85.27 116.29,84.77 114.51,84.39 112.72,84.14 110.91,84.02 109.09,84.02 107.28,84.14 105.49,84.39 103.71,84.77 101.97,85.27 100.26,85.89 98.60,86.63 97.00,87.48 95.46,88.45 93.99,89.51 92.60,90.68 91.30,91.94 90.08,93.29 88.97,94.72 87.95,96.22 87.04,97.79 86.25,99.42 85.57,101.11 85.01,102.83 84.57,104.59 84.25,106.38 84.06,108.19 84.00,110.00 84.06,111.81 84.25,113.62 84.57,115.41 85.01,117.17 85.57,118.89 86.25,120.58 87.04,122.21 87.95,123.78 88.97,125.28 90.08,126.71 91.30,128.06 92.60,129.32 93.99,130.49 95.46,131.55 97.00,132.52 98.60,133.37 100.26,134.11 101.97,134.73 103.71,135.23 105.49,135.61 107.28,135.86 109.09,135.98 110.91,135.98 112.72,135.86 114.51,135.61 116.29,135.23 118.03,134.73 119.74,134.11 121.40,133.37 123.00,132.52\"/><polygon class=\"g-archead\" points=\"123.00,132.52 116.84,141.85 111.84,133.19\"/><text class=\"g-anglelabel\" x=\"68.4\" y=\"90.0\" text-anchor=\"middle\">300°</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "d210": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 210° in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant III.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"36.39\" y2=\"152.50\"/><circle class=\"g-dot\" cx=\"36.39\" cy=\"152.50\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.17 135.74,106.35 135.42,104.54 134.97,102.77 134.40,101.03 133.71,99.33 132.90,97.69 131.97,96.10 130.94,94.59 129.80,93.15 128.57,91.80 127.24,90.54 125.83,89.37 124.34,88.31 122.77,87.35 121.15,86.51 119.46,85.78 117.74,85.18 115.97,84.69 114.17,84.34 112.35,84.11 110.52,84.01 108.69,84.03 106.87,84.19 105.06,84.47 103.27,84.89 101.52,85.42 99.81,86.08 98.15,86.86 96.55,87.75 95.02,88.75 93.56,89.86 92.18,91.07 90.89,92.37 89.70,93.76 88.60,95.23 87.62,96.77 86.74,98.38 85.98,100.05 85.34,101.77 84.82,103.52 84.43,105.31 84.16,107.13 84.02,108.95 84.01,110.79 84.13,112.61 84.38,114.43 84.76,116.22 85.26,117.98 85.88,119.71 86.62,121.38 87.48,123.00\"/><polygon class=\"g-archead\" points=\"87.48,123.00 78.15,116.84 86.81,111.84\"/><text class=\"g-anglelabel\" x=\"97.6\" y=\"67.6\" text-anchor=\"middle\">210°</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "r150": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 5π/6 in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant II.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"36.39\" y2=\"67.50\"/><circle class=\"g-dot\" cx=\"36.39\" cy=\"67.50\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.93,108.16 135.74,106.33 135.42,104.52 134.97,102.74 134.39,100.99 133.69,99.29 132.88,97.64 131.94,96.06 130.90,94.54 129.76,93.10 128.51,91.75 127.18,90.48 125.75,89.32 124.25,88.25 122.68,87.30 121.04,86.46 119.35,85.74 117.61,85.14 115.84,84.66 114.03,84.31 112.20,84.09 110.37,84.00 108.53,84.04 106.70,84.21 104.88,84.51 103.09,84.93 101.34,85.49 99.63,86.16 97.97,86.95 96.37,87.86 94.84,88.88 93.38,90.00 92.01,91.23 90.73,92.55 89.54,93.95 88.46,95.44 87.48,97.00\"/><polygon class=\"g-archead\" points=\"87.48,97.00 88.15,85.84 96.81,90.84\"/><text class=\"g-anglelabel\" x=\"122.4\" y=\"67.6\" text-anchor=\"middle\">5π/6</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "r240": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 4π/3 in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant III.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"67.50\" y2=\"183.61\"/><circle class=\"g-dot\" cx=\"67.50\" cy=\"183.61\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.19 135.75,106.38 135.43,104.59 134.99,102.83 134.43,101.11 133.75,99.42 132.96,97.79 132.05,96.22 131.03,94.72 129.92,93.29 128.70,91.94 127.40,90.68 126.01,89.51 124.54,88.45 123.00,87.48 121.40,86.63 119.74,85.89 118.03,85.27 116.29,84.77 114.51,84.39 112.72,84.14 110.91,84.02 109.09,84.02 107.28,84.14 105.49,84.39 103.71,84.77 101.97,85.27 100.26,85.89 98.60,86.63 97.00,87.48 95.46,88.45 93.99,89.51 92.60,90.68 91.30,91.94 90.08,93.29 88.97,94.72 87.95,96.22 87.04,97.79 86.25,99.42 85.57,101.11 85.01,102.83 84.57,104.59 84.25,106.38 84.06,108.19 84.00,110.00 84.06,111.81 84.25,113.62 84.57,115.41 85.01,117.17 85.57,118.89 86.25,120.58 87.04,122.21 87.95,123.78 88.97,125.28 90.08,126.71 91.30,128.06 92.60,129.32 93.99,130.49 95.46,131.55 97.00,132.52\"/><polygon class=\"g-archead\" points=\"97.00,132.52 85.84,131.85 90.84,123.19\"/><text class=\"g-anglelabel\" x=\"86.0\" y=\"72.4\" text-anchor=\"middle\">4π/3</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "r315": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 7π/4 in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant IV.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"170.10\" y2=\"170.10\"/><circle class=\"g-dot\" cx=\"170.10\" cy=\"170.10\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.17 135.74,106.35 135.42,104.54 134.97,102.77 134.40,101.03 133.71,99.33 132.90,97.69 131.97,96.10 130.94,94.59 129.80,93.15 128.57,91.80 127.24,90.54 125.83,89.37 124.34,88.31 122.77,87.35 121.15,86.51 119.46,85.78 117.74,85.18 115.97,84.69 114.17,84.34 112.35,84.11 110.52,84.01 108.69,84.03 106.87,84.19 105.06,84.47 103.27,84.89 101.52,85.42 99.81,86.08 98.15,86.86 96.55,87.75 95.02,88.75 93.56,89.86 92.18,91.07 90.89,92.37 89.70,93.76 88.60,95.23 87.62,96.77 86.74,98.38 85.98,100.05 85.34,101.77 84.82,103.52 84.43,105.31 84.16,107.13 84.02,108.95 84.01,110.79 84.13,112.61 84.38,114.43 84.76,116.22 85.26,117.98 85.88,119.71 86.62,121.38 87.48,123.00 88.45,124.55 89.53,126.03 90.71,127.44 91.99,128.75 93.35,129.97 94.80,131.10 96.33,132.11 97.92,133.02 99.57,133.82 101.27,134.49 103.02,135.05 104.80,135.47 106.61,135.78 108.43,135.95 110.26,136.00 112.09,135.92 113.91,135.70 115.71,135.36 117.48,134.90 119.22,134.31 120.91,133.60 122.54,132.77 124.12,131.83 125.62,130.79 127.04,129.63 128.38,128.38\"/><polygon class=\"g-archead\" points=\"128.38,128.38 124.85,138.99 117.78,131.92\"/><text class=\"g-anglelabel\" x=\"65.7\" y=\"95.6\" text-anchor=\"middle\">7π/4</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "d240": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 240° in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant III.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"67.50\" y2=\"183.61\"/><circle class=\"g-dot\" cx=\"67.50\" cy=\"183.61\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.19 135.75,106.38 135.43,104.59 134.99,102.83 134.43,101.11 133.75,99.42 132.96,97.79 132.05,96.22 131.03,94.72 129.92,93.29 128.70,91.94 127.40,90.68 126.01,89.51 124.54,88.45 123.00,87.48 121.40,86.63 119.74,85.89 118.03,85.27 116.29,84.77 114.51,84.39 112.72,84.14 110.91,84.02 109.09,84.02 107.28,84.14 105.49,84.39 103.71,84.77 101.97,85.27 100.26,85.89 98.60,86.63 97.00,87.48 95.46,88.45 93.99,89.51 92.60,90.68 91.30,91.94 90.08,93.29 88.97,94.72 87.95,96.22 87.04,97.79 86.25,99.42 85.57,101.11 85.01,102.83 84.57,104.59 84.25,106.38 84.06,108.19 84.00,110.00 84.06,111.81 84.25,113.62 84.57,115.41 85.01,117.17 85.57,118.89 86.25,120.58 87.04,122.21 87.95,123.78 88.97,125.28 90.08,126.71 91.30,128.06 92.60,129.32 93.99,130.49 95.46,131.55 97.00,132.52\"/><polygon class=\"g-archead\" points=\"97.00,132.52 85.84,131.85 90.84,123.19\"/><text class=\"g-anglelabel\" x=\"86.0\" y=\"72.4\" text-anchor=\"middle\">240°</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "r135": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 3π/4 in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant II.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"49.90\" y2=\"49.90\"/><circle class=\"g-dot\" cx=\"49.90\" cy=\"49.90\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.93,108.15 135.74,106.30 135.41,104.47 134.95,102.67 134.36,100.91 133.65,99.20 132.82,97.54 131.87,95.94 130.81,94.42 129.65,92.97 128.38,91.62 127.03,90.35 125.58,89.19 124.06,88.13 122.46,87.18 120.80,86.35 119.09,85.64 117.33,85.05 115.53,84.59 113.70,84.26 111.85,84.07 110.00,84.00 108.15,84.07 106.30,84.26 104.47,84.59 102.67,85.05 100.91,85.64 99.20,86.35 97.54,87.18 95.94,88.13 94.42,89.19 92.97,90.35 91.62,91.62\"/><polygon class=\"g-archead\" points=\"91.62,91.62 95.15,81.01 102.22,88.08\"/><text class=\"g-anglelabel\" x=\"128.4\" y=\"69.7\" text-anchor=\"middle\">3π/4</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "d330": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 330° in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant IV.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"183.61\" y2=\"152.50\"/><circle class=\"g-dot\" cx=\"183.61\" cy=\"152.50\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.18 135.74,106.36 135.42,104.56 134.98,102.79 134.41,101.06 133.73,99.36 132.92,97.73 132.00,96.15 130.98,94.64 129.85,93.20 128.62,91.85 127.30,90.59 125.89,89.42 124.41,88.36 122.86,87.40 121.24,86.55 119.57,85.82 117.84,85.21 116.09,84.72 114.30,84.36 112.49,84.12 110.66,84.01 108.84,84.03 107.02,84.17 105.21,84.44 103.43,84.84 101.68,85.37 99.97,86.01 98.31,86.77 96.71,87.65 95.18,88.64 93.72,89.73 92.33,90.92 91.04,92.21 89.84,93.59 88.73,95.04 87.74,96.57 86.85,98.17 86.08,99.82 85.42,101.52 84.89,103.27 84.48,105.05 84.19,106.85 84.03,108.67 84.00,110.50 84.10,112.32 84.33,114.13 84.68,115.92 85.16,117.69 85.76,119.41 86.48,121.09 87.32,122.71 88.27,124.27 89.32,125.76 90.48,127.17 91.73,128.50 93.08,129.74 94.50,130.88 96.01,131.91 97.58,132.84 99.21,133.66 100.90,134.36 102.63,134.93 104.40,135.39 106.20,135.72 108.01,135.92 109.83,136.00 111.66,135.95 113.48,135.77 115.28,135.46 117.05,135.03 118.79,134.47 120.48,133.79 122.13,133.00 123.71,132.09 125.23,131.07 126.67,129.95 128.03,128.73 129.30,127.42 130.47,126.02 131.55,124.55 132.52,123.00\"/><polygon class=\"g-archead\" points=\"132.52,123.00 131.85,134.16 123.19,129.16\"/><text class=\"g-anglelabel\" x=\"63.6\" y=\"101.6\" text-anchor=\"middle\">330°</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
+        "r300": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 5π/3 in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant IV.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"152.50\" y2=\"183.61\"/><circle class=\"g-dot\" cx=\"152.50\" cy=\"183.61\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.19 135.75,106.38 135.43,104.59 134.99,102.83 134.43,101.11 133.75,99.42 132.96,97.79 132.05,96.22 131.03,94.72 129.92,93.29 128.70,91.94 127.40,90.68 126.01,89.51 124.54,88.45 123.00,87.48 121.40,86.63 119.74,85.89 118.03,85.27 116.29,84.77 114.51,84.39 112.72,84.14 110.91,84.02 109.09,84.02 107.28,84.14 105.49,84.39 103.71,84.77 101.97,85.27 100.26,85.89 98.60,86.63 97.00,87.48 95.46,88.45 93.99,89.51 92.60,90.68 91.30,91.94 90.08,93.29 88.97,94.72 87.95,96.22 87.04,97.79 86.25,99.42 85.57,101.11 85.01,102.83 84.57,104.59 84.25,106.38 84.06,108.19 84.00,110.00 84.06,111.81 84.25,113.62 84.57,115.41 85.01,117.17 85.57,118.89 86.25,120.58 87.04,122.21 87.95,123.78 88.97,125.28 90.08,126.71 91.30,128.06 92.60,129.32 93.99,130.49 95.46,131.55 97.00,132.52 98.60,133.37 100.26,134.11 101.97,134.73 103.71,135.23 105.49,135.61 107.28,135.86 109.09,135.98 110.91,135.98 112.72,135.86 114.51,135.61 116.29,135.23 118.03,134.73 119.74,134.11 121.40,133.37 123.00,132.52\"/><polygon class=\"g-archead\" points=\"123.00,132.52 116.84,141.85 111.84,133.19\"/><text class=\"g-anglelabel\" x=\"68.4\" y=\"90.0\" text-anchor=\"middle\">5π/3</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>"
+      },
+      "stages": [
+        {
+          "stage": "Get ready",
+          "desc": "Two quick skills TR1 leans on. Skip any you already have.",
+          "stops": [
+            {
+              "id": "tr1-g1",
+              "title": "Simplify fractions over 180",
+              "target": "Reduce fractions like \\(\\dfrac{150}{180}\\) to lowest terms by dividing by common factors.",
+              "cold": "Simplify \\(\\dfrac{150}{180}\\) and \\(\\dfrac{240}{180}\\).",
+              "coldPlain": "Simplify 150/180 and 240/180.",
+              "coldA": "\\(\\dfrac{150}{180} = \\dfrac{5}{6}\\) (divide by 30). \\(\\dfrac{240}{180} = \\dfrac{4}{3}\\) (divide by 60).",
+              "solution": "150/180: both divide by 30, giving 5/6. 240/180: both divide by 60, giving 4/3. If you do not see the biggest factor, divide by 10 first, then keep going.",
+              "mistake": "Stopping partway, like 15/18 instead of 5/6.",
+              "again": "Simplify \\(\\dfrac{315}{180}\\) and \\(\\dfrac{90}{180}\\).",
+              "againA": "\\(\\dfrac{7}{4}\\) (divide by 45) and \\(\\dfrac{1}{2}\\).",
+              "reflect": "What is a quick first step when you do not see the biggest common factor?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                }
+              ]
+            },
+            {
+              "id": "tr1-g2",
+              "title": "Standard position and quadrants",
+              "target": "An angle in standard position starts on the positive \\(x\\)-axis (initial side) and rotates <strong>counterclockwise</strong> for positive angles. Know which quadrant each range of angles ends in.",
+              "cold": "In which quadrant (or on which axis) does each angle end? \\(120^\\circ\\), \\(300^\\circ\\), \\(225^\\circ\\)",
+              "coldPlain": "In which quadrant (or on which axis) does each angle end: 120 degrees, 300 degrees, 225 degrees?",
+              "coldA": "\\(120^\\circ\\): Quadrant II. \\(300^\\circ\\): Quadrant IV. \\(225^\\circ\\): Quadrant III.",
+              "solution": "Quadrant I is 0 to 90 degrees, II is 90 to 180, III is 180 to 270, IV is 270 to 360. So 120 is in II, 300 in IV, and 225 in III.",
+              "mistake": "Counting quadrants clockwise, or starting from the y-axis.",
+              "again": "Where does each angle end? \\(45^\\circ\\), \\(270^\\circ\\), \\(170^\\circ\\)",
+              "againA": "\\(45^\\circ\\): Quadrant I. \\(270^\\circ\\): on the negative \\(y\\)-axis (not in a quadrant). \\(170^\\circ\\): Quadrant II.",
+              "reflect": "Which four angles land exactly on an axis?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Learn the skills",
+          "desc": "One stop per skill on the TR1 check: drawing angles and converting both ways.",
+          "stops": [
+            {
+              "id": "tr1-t1",
+              "title": "Draw a degree angle",
+              "target": "Draw an angle in degrees in standard position: find the nearest axis, then go the extra amount past it, counterclockwise.",
+              "cold": "Draw \\(135^\\circ\\) in standard position.",
+              "coldPlain": "Draw 135 degrees in standard position.",
+              "note": "I drew the angle on paper. I'll either upload a photo or describe it: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check my drawing.",
+              "coldA": "Go past \\(90^\\circ\\) by another \\(45^\\circ\\), halfway into Quadrant II.[[graph:d135]]",
+              "solution": "Start on the positive x-axis and rotate counterclockwise. 135 = 90 + 45, so pass the positive y-axis and go 45 degrees more: exactly halfway between the positive y-axis and the negative x-axis, in Quadrant II. Draw an arc with an arrow to show the direction.",
+              "mistake": "Rotating clockwise, or forgetting the arc that shows the rotation.",
+              "again": "Draw \\(300^\\circ\\) in standard position.",
+              "againA": "\\(300^\\circ = 360^\\circ - 60^\\circ\\): stop \\(60^\\circ\\) short of a full turn, in Quadrant IV.[[graph:d300]]",
+              "stretch": "Draw \\(210^\\circ\\).",
+              "stretchA": "\\(180^\\circ + 30^\\circ\\): just past the negative \\(x\\)-axis, in Quadrant III.[[graph:d210]]",
+              "reflect": "How do benchmarks like \\(90^\\circ\\), \\(180^\\circ\\), and \\(270^\\circ\\) help you draw quickly?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "tr1-t2",
+              "title": "Degrees to radians",
+              "target": "Convert degrees to radians by multiplying by \\(\\dfrac{\\pi}{180^\\circ}\\) and simplifying. (\\(180^\\circ = \\pi\\) radians.)",
+              "cold": "Convert \\(150^\\circ\\) to radians.",
+              "coldPlain": "Convert 150 degrees to radians.",
+              "coldA": "\\(150^\\circ \\cdot \\dfrac{\\pi}{180^\\circ} = \\dfrac{150\\pi}{180} = \\dfrac{5\\pi}{6}\\).",
+              "solution": "Multiply by pi/180: 150 * pi/180 = 150pi/180. Simplify 150/180 = 5/6. Answer: 5pi/6.",
+              "mistake": "Multiplying by 180/pi (the wrong direction), which leaves degrees and pi in a strange mix.",
+              "again": "Convert \\(225^\\circ\\) and \\(330^\\circ\\) to radians.",
+              "againA": "\\(225^\\circ = \\dfrac{5\\pi}{4}\\) and \\(330^\\circ = \\dfrac{11\\pi}{6}\\).",
+              "reflect": "How do you remember which fraction to multiply by?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "tr1-t3",
+              "title": "Radians to degrees",
+              "target": "Convert radians to degrees by multiplying by \\(\\dfrac{180^\\circ}{\\pi}\\). The \\(\\pi\\) cancels.",
+              "cold": "Convert \\(\\dfrac{2\\pi}{3}\\) to degrees.",
+              "coldPlain": "Convert 2pi/3 radians to degrees.",
+              "coldA": "\\(\\dfrac{2\\pi}{3} \\cdot \\dfrac{180^\\circ}{\\pi} = \\dfrac{360^\\circ}{3} = 120^\\circ\\).",
+              "solution": "Multiply by 180/pi. The pi cancels: (2/3)(180) = 120 degrees. Shortcut: replace pi with 180 degrees, so 2(180)/3 = 120.",
+              "mistake": "Keeping the pi in the answer.",
+              "again": "Convert \\(\\dfrac{7\\pi}{4}\\) and \\(\\dfrac{3\\pi}{2}\\) to degrees.",
+              "againA": "\\(\\dfrac{7\\pi}{4} = 315^\\circ\\) and \\(\\dfrac{3\\pi}{2} = 270^\\circ\\).",
+              "reflect": "Why does \"replace \\(\\pi\\) with \\(180^\\circ\\)\" work?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            },
+            {
+              "id": "tr1-t4",
+              "title": "Draw a radian angle",
+              "target": "Draw an angle in radians by thinking in slices of a half turn (\\(\\pi\\)): \\(\\dfrac{5\\pi}{6}\\) is 5 slices of \\(\\dfrac{\\pi}{6}\\), just short of \\(\\pi\\).",
+              "cold": "Draw \\(\\dfrac{5\\pi}{6}\\) in standard position.",
+              "coldPlain": "Draw 5pi/6 radians in standard position.",
+              "note": "I drew the angle on paper. I'll either upload a photo or describe it: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check my drawing.",
+              "coldA": "\\(\\pi\\) is a half turn cut into 6 slices; go 5 of them. That is \\(\\dfrac{\\pi}{6}\\) short of the negative \\(x\\)-axis, in Quadrant II.[[graph:r150]]",
+              "solution": "pi is half a turn, ending on the negative x-axis. 5pi/6 is 5/6 of that half turn: one slice (pi/6, or 30 degrees) short of the negative x-axis, in Quadrant II. If it helps, convert: 5pi/6 = 150 degrees.",
+              "mistake": "Putting 5pi/6 past the negative x-axis because 5 is a big number.",
+              "again": "Draw \\(\\dfrac{4\\pi}{3}\\) and \\(\\dfrac{7\\pi}{4}\\).",
+              "againA": "\\(\\dfrac{4\\pi}{3} = \\pi + \\dfrac{\\pi}{3}\\): Quadrant III.[[graph:r240]]\\(\\dfrac{7\\pi}{4} = 2\\pi - \\dfrac{\\pi}{4}\\): Quadrant IV.[[graph:r315]]",
+              "reflect": "How can comparing a radian angle to \\(\\pi\\) and \\(2\\pi\\) tell you where it lands?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "Videos",
+                  "tab": "tab-videos"
+                },
+                {
+                  "label": "Apps",
+                  "tab": "tab-apps"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": "Put it together",
+          "desc": "A practice check in the same two-part format as the TR1 CheckIt exercise.",
+          "stops": [
+            {
+              "id": "tr1-f1",
+              "title": "Practice check",
+              "target": "Draw a degree angle and a radian angle in standard position, and convert each to the other unit.",
+              "cold": "(a) Draw \\(240^\\circ\\) in standard position. Convert it to radians.<br>(b) Draw \\(\\dfrac{3\\pi}{4}\\) in standard position. Convert it to degrees.",
+              "coldPlain": "(a) Draw 240 degrees in standard position and convert it to radians. (b) Draw 3pi/4 in standard position and convert it to degrees.",
+              "note": "I drew the angle on paper. I'll either upload a photo or describe it: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check my drawing.",
+              "coldA": "(a) \\(180^\\circ + 60^\\circ\\), Quadrant III. \\(240^\\circ = \\dfrac{4\\pi}{3}\\).[[graph:d240]](b) \\(\\pi - \\dfrac{\\pi}{4}\\), Quadrant II. \\(\\dfrac{3\\pi}{4} = 135^\\circ\\).[[graph:r135]]",
+              "solution": "(a) 240 = 180 + 60: 60 degrees past the negative x-axis, in Quadrant III. 240 * pi/180 = 4pi/3. (b) 3pi/4 is one quarter-slice (pi/4) short of pi, in Quadrant II. 3pi/4 * 180/pi = 135 degrees.",
+              "mistake": "Drawing clockwise, or converting in the wrong direction.",
+              "again": "(a) Draw \\(330^\\circ\\) and convert it to radians.<br>(b) Draw \\(\\dfrac{5\\pi}{3}\\) and convert it to degrees.",
+              "againA": "(a) \\(30^\\circ\\) short of a full turn, Quadrant IV. \\(330^\\circ = \\dfrac{11\\pi}{6}\\).[[graph:d330]](b) \\(2\\pi - \\dfrac{\\pi}{3}\\), Quadrant IV. \\(\\dfrac{5\\pi}{3} = 300^\\circ\\).[[graph:r300]]",
+              "reflect": "Which is easier for you to picture, degrees or radians? What will help with the other?",
+              "related": [
+                {
+                  "label": "FAQs",
+                  "tab": "tab-faq"
+                },
+                {
+                  "label": "AI Prompts",
+                  "tab": "tab-prompts"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
