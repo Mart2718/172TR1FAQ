@@ -317,7 +317,7 @@
               "note": "I drew the angle on paper. I'll either upload a photo or describe it: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check my drawing.",
               "coldA": "Go past \\(90^\\circ\\) by another \\(30^\\circ\\), into Quadrant II, closer to the positive \\(y\\)-axis.[[graph:d120]]",
               "solution": "Start on the positive x-axis and rotate counterclockwise. 120 = 90 + 30, so pass the positive y-axis and go 30 degrees more: one third of the way from the positive y-axis to the negative x-axis, in Quadrant II. Draw an arc with an arrow to show the direction.",
-              "mistake": "Rotating clockwise, or forgetting the arc that shows the rotation. (CheckIt's own answer picture shows a small arc without an arrowhead; drawing the arrow is still good practice.)",
+              "mistake": "Rotating clockwise, or forgetting the arc that shows the rotation. (CheckIt's answer picture draws both sides as rays with arrowheads and marks the angle with a small arc. Putting an arrow on the arc to show the direction of the turn is still good practice.)",
               "again": "Draw \\(300^\\circ\\) in standard position.",
               "againA": "\\(300^\\circ = 360^\\circ - 60^\\circ\\): stop \\(60^\\circ\\) short of a full turn, in Quadrant IV.[[graph:d300]]",
               "stretch": "Draw \\(210^\\circ\\).",
