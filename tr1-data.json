@@ -19,7 +19,7 @@
       "id": "faq-3",
       "category": "conceptual",
       "question": "Why do some angles have a positive measure and others a negative measure?",
-      "answer": "The sign of an angle tells you which direction it was rotated. An angle measured counterclockwise from the initial side is positive; an angle measured clockwise is negative. For example, +60° and −60° are the same amount of rotation in opposite directions; the sign just records which way you turned. <em>Beyond TR1:</em> CheckIt's TR1 angles are all positive, between 0° and 360°, so you will not see negative angles on this check. Later on, keep in mind that the terminal side alone doesn't show the direction or the number of turns: 300° and −60° end on the same side, and only the turn arc tells them apart.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.\" viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"280\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#4a4a5a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 0 167.5,119.7\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\"/><text x=\"185\" y=\"100\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">+60&deg;</text><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"236.6\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 1 167.5,180.3\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"2\"/><text x=\"185\" y=\"210\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">&minus;60&deg;</text></svg></div><p class=\"graph-caption\">Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.</p>"
+      "answer": "The sign of an angle tells you which direction it was rotated. An angle measured counterclockwise from the initial side is positive; an angle measured clockwise is negative. For example, +60° and −60° are the same amount of rotation in opposite directions; the sign just records which way you turned. <em>Extension:</em> the TR1 CheckIt exercise uses only positive angles from 0° to 360°. Keep in mind that the terminal side alone doesn't show the direction or the number of turns: 300° and −60° end on the same side, and only the turn arc tells them apart.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.\" viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"280\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#4a4a5a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 0 167.5,119.7\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\"/><text x=\"185\" y=\"100\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">+60&deg;</text><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"236.6\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 1 167.5,180.3\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"2\"/><text x=\"185\" y=\"210\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">&minus;60&deg;</text></svg></div><p class=\"graph-caption\">Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.</p>"
     },
     {
       "id": "faq-4",
@@ -49,7 +49,7 @@
       "id": "faq-8",
       "category": "sticking-points",
       "question": "How do I sketch an angle in standard position if I'm given its measure in degrees?",
-      "answer": "Start by drawing the initial side along the positive x-axis. Then estimate what fraction of a full circle (360°) the angle represents, and rotate the terminal side that fraction of the way around — counterclockwise if positive, clockwise if negative. You don't need to be perfectly precise, but CheckIt's TR1 angles are multiples of 30° and 45°, so aim for the right 30° or 45° mark, not just the right quadrant: 300° and 330° are both in Quadrant IV but are different drawings.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Sketch \\( 120° \\): since \\( 120° \\) is a bit more than a quarter turn (90°) but less than a half turn (180°), rotate the terminal side counterclockwise into Quadrant II, 30° past the positive y-axis, so closer to the positive y-axis than to the negative x-axis.</p></div>"
+      "answer": "Start by drawing the initial side along the positive x-axis. Then estimate what fraction of a full circle (360°) the angle represents, and rotate the terminal side that fraction of the way around — counterclockwise if positive, clockwise if negative. You don't need to be perfectly precise, but CheckIt's TR1 angles are multiples of 30° or 45°, so aim for the right 30° or 45° mark, not just the right quadrant: 300° and 330° are both in Quadrant IV but are different drawings.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Sketch \\( 120° \\): since \\( 120° \\) is a bit more than a quarter turn (90°) but less than a half turn (180°), rotate the terminal side counterclockwise into Quadrant II, 30° past the positive y-axis, so closer to the positive y-axis than to the negative x-axis.</p></div>"
     },
     {
       "id": "faq-9",
@@ -61,13 +61,13 @@
       "id": "faq-10",
       "category": "sticking-points",
       "question": "How do I know which direction to draw an angle — clockwise or counterclockwise?",
-      "answer": "Check the sign. A positive angle measure always means counterclockwise rotation from the initial side; a negative angle measure always means clockwise rotation. If no sign is written, assume positive (counterclockwise). <em>Beyond TR1:</em> CheckIt's TR1 angles are all positive, between 0° and 360°, so you will not see negative angles on this check."
+      "answer": "Check the sign. A positive angle measure always means counterclockwise rotation from the initial side; a negative angle measure always means clockwise rotation. If no sign is written, assume positive (counterclockwise). <em>Extension:</em> the TR1 CheckIt exercise uses only positive angles from 0° to 360°."
     },
     {
       "id": "faq-11",
       "category": "sticking-points",
       "question": "Why do radian measures often involve π, and what does a value like 7π/6 actually mean?",
-      "answer": "Since a full turn is exactly 2π radians, familiar angles have measures that are convenient fractions of π, so we keep π in the expression rather than converting to a decimal. In 7π/6, each slice measures π/6, or 30°. Six slices make a half turn (π), and twelve make a full turn (2π). Seven slices give 210°, which puts the terminal side 30° past the negative x-axis, in Quadrant III. Reading the denominator as \"the size of each slice\" and the numerator as \"how many slices you rotated through\" makes these values much easier to picture. (Radian measures don't have to contain π; 1 or 2 radians are angles too. CheckIt's TR1 angles are multiples of π.)"
+      "answer": "Since a full turn is exactly 2π radians, familiar angles have measures that are convenient fractions of π, so we keep π in the expression rather than converting to a decimal. In 7π/6, each slice measures π/6, or 30°. Six slices make a half turn (π), and twelve make a full turn (2π). Seven slices give 210°, which puts the terminal side 30° past the negative x-axis, in Quadrant III. The denominator tells you how many equal slices make a half turn; the numerator tells you how many of those slices you rotate through. Reading radians this way makes them much easier to picture. (Radian measures don't have to contain π; 1 or 2 radians are angles too. The angles in the TR1 CheckIt exercise are fractions of π, such as π/6 and 3π/4.)"
     },
     {
       "id": "faq-12",
@@ -109,7 +109,7 @@
       "id": "vid-3",
       "title": "Plot Negative Angles in Degrees in Standard Position and Convert to Radians",
       "url": "https://youtu.be/-iwa-u0vDIw",
-      "description": "Sketching a negative (clockwise) angle given in degrees, then converting it to radians. (Beyond TR1: CheckIt's TR1 angles are positive.)",
+      "description": "Sketching a negative (clockwise) angle given in degrees, then converting it to radians. (Extension: negative angles go beyond the TR1 CheckIt exercise.)",
       "category": "standard-position",
       "relatedFaqs": [
         "faq-3",
@@ -132,7 +132,7 @@
       "id": "vid-5",
       "title": "Plot Negative Angles in Radians in Standard Position and Convert to Degrees",
       "url": "https://youtu.be/qkMJhj9L0eQ",
-      "description": "Sketching a negative angle given in radians, then converting it to degrees. (Beyond TR1: CheckIt's TR1 angles are positive.)",
+      "description": "Sketching a negative angle given in radians, then converting it to degrees. (Extension: negative angles go beyond the TR1 CheckIt exercise.)",
       "category": "standard-position",
       "relatedFaqs": [
         "faq-3",
@@ -201,27 +201,27 @@
       {
         "id": "prompt-1",
         "title": "Practice Standard Position",
-        "prompt": "I'm learning about angles in standard position. Give me one angle at a time from the special angles between 0° and 360° (multiples of 30° and 45°). I'll tell you where it lands and how far past the nearest axis. Don't confirm until I explain why. Every third one, describe your own sketch with one hidden mistake for me to catch."
+        "prompt": "I'm learning about angles in standard position. Give me one angle at a time from the special angles between 0° and 360° (multiples of 30° or 45°). I'll tell you where it lands and how far past the nearest axis. Don't confirm until I explain why. Every third one, describe your own sketch with one hidden mistake for me to catch. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-2",
         "title": "Understand the Radian Definition",
-        "prompt": "I'm learning what a radian is. Don't define a radian for me. Ask me questions until I can explain why wrapping one radius around the circle gives 1 radian, and why a half turn is π. Then write a short explanation with one subtle error, and I'll find it."
+        "prompt": "I'm learning what a radian is. Start by asking what I understand about radius and arc length. Give me a small hint if I get stuck, then help me explain the definition of one radian and why a half turn measures π radians. Then write a short explanation with one subtle error, and I'll find it. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-3",
         "title": "Practice Degree-Radian Conversion",
-        "prompt": "I'm learning to convert between degrees and radians. Pretend you're a classmate. Convert five CheckIt-style angles (special angles between 0° and 360°, some in degrees and some in radians) and get two wrong in realistic ways (dividing by 360, using the wrong factor, leaving π in a degree answer). I'll grade your work and explain each fix."
+        "prompt": "I'm learning to convert between degrees and radians. Pretend you're a classmate. Convert five CheckIt-style angles (special angles between 0° and 360°, some in degrees and some in radians) and get two wrong in realistic ways (dividing by 360, using the wrong factor, leaving π in a degree answer). I'll grade your work and explain each fix. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-4",
         "title": "Build Intuition for Radian Benchmarks",
-        "prompt": "I'm trying to build a mental picture of common radian angles like π/2, π, 3π/2, and 2π. Can you help me visualize each one as a fraction of a full turn around a circle? Then give me a radian value like 7π/6 or 5π/4 and help me figure out roughly where it lands without converting to degrees first. Then tell me where 11π/6 and 2π/3 land, getting one wrong, and ask me which one you got wrong and how I know."
+        "prompt": "I'm trying to build a mental picture of common radian angles like π/2, π, 3π/2, and 2π. Can you help me visualize each one as a fraction of a full turn around a circle? Then give me a radian value like 7π/6 or 5π/4 and help me figure out roughly where it lands without converting to degrees first. Then tell me where 11π/6 and 2π/3 land, getting one wrong, and ask me which one you got wrong and how I know. After I respond, check my reasoning and give me the fully corrected solution before we finish."
       },
       {
         "id": "prompt-5",
-        "title": "Beyond TR1: Connect Radians to Arc Length",
-        "prompt": "Beyond TR1: I've learned that a radian is defined using arc length and radius. Before you explain anything, ask me to predict how far a wheel with a 1-foot radius rolls in a half turn. Then help me check my prediction, and point out where my reasoning was right."
+        "title": "Extension: Connect Radians to Arc Length",
+        "prompt": "This goes beyond the TR1 CheckIt exercise. I've learned that a radian is defined using arc length and radius. Before you explain anything, ask me to predict how far a wheel with a 1-foot radius rolls in a half turn. Then help me check my prediction, and point out where my reasoning was right."
       }
     ],
     "open": [
@@ -237,7 +237,7 @@
       "id": "TR1",
       "label": "TR1: Degree and Radian Measure",
       "sectionLabel": "TR1, Degree and Radian Measure",
-      "intro": "Builds to the TR1 check: drawing angles in standard position and converting between degrees and radians.",
+      "intro": "Builds to the TR1 check: drawing angles in standard position and converting between degrees and radians. <strong>Practice scope:</strong> the guided path focuses on the positive special angles used in the TR1 CheckIt exercise. The optional extension at the end adds negative angles.",
       "graphs": {
         "d300": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 300° in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant IV.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"152.50\" y2=\"183.61\"/><circle class=\"g-dot\" cx=\"152.50\" cy=\"183.61\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.19 135.75,106.38 135.43,104.59 134.99,102.83 134.43,101.11 133.75,99.42 132.96,97.79 132.05,96.22 131.03,94.72 129.92,93.29 128.70,91.94 127.40,90.68 126.01,89.51 124.54,88.45 123.00,87.48 121.40,86.63 119.74,85.89 118.03,85.27 116.29,84.77 114.51,84.39 112.72,84.14 110.91,84.02 109.09,84.02 107.28,84.14 105.49,84.39 103.71,84.77 101.97,85.27 100.26,85.89 98.60,86.63 97.00,87.48 95.46,88.45 93.99,89.51 92.60,90.68 91.30,91.94 90.08,93.29 88.97,94.72 87.95,96.22 87.04,97.79 86.25,99.42 85.57,101.11 85.01,102.83 84.57,104.59 84.25,106.38 84.06,108.19 84.00,110.00 84.06,111.81 84.25,113.62 84.57,115.41 85.01,117.17 85.57,118.89 86.25,120.58 87.04,122.21 87.95,123.78 88.97,125.28 90.08,126.71 91.30,128.06 92.60,129.32 93.99,130.49 95.46,131.55 97.00,132.52 98.60,133.37 100.26,134.11 101.97,134.73 103.71,135.23 105.49,135.61 107.28,135.86 109.09,135.98 110.91,135.98 112.72,135.86 114.51,135.61 116.29,135.23 118.03,134.73 119.74,134.11 121.40,133.37 123.00,132.52\"/><polygon class=\"g-archead\" points=\"123.00,132.52 116.84,141.85 111.84,133.19\"/><text class=\"g-anglelabel\" x=\"68.4\" y=\"90.0\" text-anchor=\"middle\">300°</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
         "d210": "<div class=\"graph-wrap\"><svg viewBox=\"0 0 220 220\" width=\"220\" style=\"max-width:100%;height:auto\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Angle of 210° in standard position: initial side on the positive x-axis, rotating counterclockwise, terminal side ending in Quadrant III.\"><circle cx=\"110.0\" cy=\"110.0\" r=\"85\" class=\"g-ghost\"/><line class=\"g-axis\" x1=\"8\" y1=\"110.0\" x2=\"212\" y2=\"110.0\"/><line class=\"g-axis\" x1=\"110.0\" y1=\"8\" x2=\"110.0\" y2=\"212\"/><line class=\"g-init\" x1=\"110.0\" y1=\"110.0\" x2=\"195.0\" y2=\"110.0\"/><line class=\"g-ray\" x1=\"110.0\" y1=\"110.0\" x2=\"36.39\" y2=\"152.50\"/><circle class=\"g-dot\" cx=\"36.39\" cy=\"152.50\" r=\"3.5\"/><polyline class=\"g-arc\" points=\"136.00,110.00 135.94,108.17 135.74,106.35 135.42,104.54 134.97,102.77 134.40,101.03 133.71,99.33 132.90,97.69 131.97,96.10 130.94,94.59 129.80,93.15 128.57,91.80 127.24,90.54 125.83,89.37 124.34,88.31 122.77,87.35 121.15,86.51 119.46,85.78 117.74,85.18 115.97,84.69 114.17,84.34 112.35,84.11 110.52,84.01 108.69,84.03 106.87,84.19 105.06,84.47 103.27,84.89 101.52,85.42 99.81,86.08 98.15,86.86 96.55,87.75 95.02,88.75 93.56,89.86 92.18,91.07 90.89,92.37 89.70,93.76 88.60,95.23 87.62,96.77 86.74,98.38 85.98,100.05 85.34,101.77 84.82,103.52 84.43,105.31 84.16,107.13 84.02,108.95 84.01,110.79 84.13,112.61 84.38,114.43 84.76,116.22 85.26,117.98 85.88,119.71 86.62,121.38 87.48,123.00\"/><polygon class=\"g-archead\" points=\"87.48,123.00 78.15,116.84 86.81,111.84\"/><text class=\"g-anglelabel\" x=\"97.6\" y=\"67.6\" text-anchor=\"middle\">210°</text><text class=\"g-label\" x=\"208\" y=\"104.0\" text-anchor=\"end\">x</text><text class=\"g-label\" x=\"116.0\" y=\"16\">y</text></svg></div>",
@@ -451,7 +451,7 @@
                   "tab": "tab-prompts"
                 }
               ],
-              "stretch": "<em>Beyond TR1</em> (CheckIt's TR1 angles are positive, but negative angles come up later): (a) Draw \\(-120^\\circ\\) and convert it to radians. (b) Draw \\(-\\dfrac{3\\pi}{4}\\) and convert it to degrees.",
+              "stretch": "<em>Extension</em> (beyond the TR1 CheckIt exercise): (a) Draw \\(-120^\\circ\\) and convert it to radians. (b) Draw \\(-\\dfrac{3\\pi}{4}\\) and convert it to degrees.",
               "stretchA": "(a) Rotate \\(120^\\circ\\) clockwise: \\(30^\\circ\\) past the negative \\(y\\)-axis, in Quadrant III. \\(-120^\\circ = -\\dfrac{2\\pi}{3}\\).[[graph:dn120]](b) Rotate \\(\\dfrac{3\\pi}{4}\\) (\\(135^\\circ\\)) clockwise: \\(45^\\circ\\) past the negative \\(y\\)-axis, in Quadrant III. \\(-\\dfrac{3\\pi}{4} = -135^\\circ\\).[[graph:rn135]]Notice that \\(-120^\\circ\\) ends on the same side as \\(240^\\circ\\). Only the direction of the turn arc tells them apart."
             }
           ]
