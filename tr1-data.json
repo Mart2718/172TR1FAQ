@@ -19,7 +19,7 @@
       "id": "faq-3",
       "category": "conceptual",
       "question": "Why do some angles have a positive measure and others a negative measure?",
-      "answer": "The sign of an angle tells you which direction it was rotated. An angle measured counterclockwise from the initial side is positive; an angle measured clockwise is negative. It's the same amount of rotation either way — the sign just records which direction you turned. <em>Beyond TR1:</em> CheckIt's TR1 angles are all positive, between 0° and 360°, so you will not see negative angles on this check.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.\" viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"280\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#4a4a5a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 0 167.5,119.7\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\"/><text x=\"185\" y=\"100\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">+60&deg;</text><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"236.6\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 1 167.5,180.3\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"2\"/><text x=\"185\" y=\"210\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">&minus;60&deg;</text></svg></div><p class=\"graph-caption\">Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.</p>"
+      "answer": "The sign of an angle tells you which direction it was rotated. An angle measured counterclockwise from the initial side is positive; an angle measured clockwise is negative. For example, +60° and −60° are the same amount of rotation in opposite directions; the sign just records which way you turned. <em>Beyond TR1:</em> CheckIt's TR1 angles are all positive, between 0° and 360°, so you will not see negative angles on this check. Later on, keep in mind that the terminal side alone doesn't show the direction or the number of turns: 300° and −60° end on the same side, and only the turn arc tells them apart.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.\" viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"280\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#4a4a5a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 0 167.5,119.7\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\"/><text x=\"185\" y=\"100\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">+60&deg;</text><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"236.6\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 1 167.5,180.3\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"2\"/><text x=\"185\" y=\"210\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">&minus;60&deg;</text></svg></div><p class=\"graph-caption\">Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.</p>"
     },
     {
       "id": "faq-4",
@@ -67,7 +67,7 @@
       "id": "faq-11",
       "category": "sticking-points",
       "question": "Why do radian measures often involve π, and what does a value like 7π/6 actually mean?",
-      "answer": "Since a full circle is exactly 2π radians, most radian angles you'll work with are convenient fractions of 2π — which naturally keeps π in the expression rather than converting to a decimal. A value like 7π/6 means: take π (a half turn, or 6π/6) and add one more sixth of π on top of it, landing just past the halfway point of the circle. Thinking of the denominator as \"how many equal slices π, the half turn, is cut into\" and the numerator as \"how many of those slices you've rotated through\" makes these values much easier to visualize."
+      "answer": "Since a full turn is exactly 2π radians, familiar angles have measures that are convenient fractions of π, so we keep π in the expression rather than converting to a decimal. In 7π/6, each slice measures π/6, or 30°. Six slices make a half turn (π), and twelve make a full turn (2π). Seven slices give 210°, which puts the terminal side 30° past the negative x-axis, in Quadrant III. Reading the denominator as \"the size of each slice\" and the numerator as \"how many slices you rotated through\" makes these values much easier to picture. (Radian measures don't have to contain π; 1 or 2 radians are angles too. CheckIt's TR1 angles are multiples of π.)"
     },
     {
       "id": "faq-12",
@@ -281,11 +281,11 @@
               "cold": "In which quadrant (or on which axis) does each angle end? \\(120^\\circ\\), \\(300^\\circ\\), \\(225^\\circ\\)",
               "coldPlain": "In which quadrant (or on which axis) does each angle end: 120 degrees, 300 degrees, 225 degrees?",
               "coldA": "\\(120^\\circ\\): Quadrant II. \\(300^\\circ\\): Quadrant IV. \\(225^\\circ\\): Quadrant III.",
-              "solution": "Quadrant I is strictly between 0 and 90 degrees, II between 90 and 180, III between 180 and 270, IV between 270 and 360; 90, 180 and 270 land on an axis. So 120 is in II, 300 in IV, and 225 in III.",
+              "solution": "Quadrant I is strictly between 0 and 90 degrees (0 < θ < 90), II is 90 < θ < 180, III is 180 < θ < 270, and IV is 270 < θ < 360. Angles of 0, 90, 180 and 270 degrees land on an axis, not in a quadrant. So 120 is in II, 300 in IV, and 225 in III.",
               "mistake": "Counting quadrants clockwise, or starting from the y-axis.",
               "again": "Where does each angle end? \\(45^\\circ\\), \\(270^\\circ\\), \\(170^\\circ\\)",
               "againA": "\\(45^\\circ\\): Quadrant I. \\(270^\\circ\\): on the negative \\(y\\)-axis (not in a quadrant). \\(170^\\circ\\): Quadrant II.",
-              "reflect": "Which angles between 0° and 360° land exactly on an axis?",
+              "reflect": "Which four angles from 0° up to (but not including) 360° have terminal sides on the coordinate axes?",
               "related": [
                 {
                   "label": "FAQs",
@@ -367,7 +367,7 @@
             {
               "id": "tr1-t3",
               "title": "Radians to degrees",
-              "target": "Convert radians to degrees by multiplying by \\(\\dfrac{180^\\circ}{\\pi}\\). The \\(\\pi\\) cancels.",
+              "target": "Convert radians to degrees by multiplying by \\(\\dfrac{180^\\circ}{\\pi}\\). For the multiples of \\(\\pi\\) used here, the \\(\\pi\\) factors cancel.",
               "cold": "Convert \\(\\dfrac{2\\pi}{3}\\) to degrees.",
               "coldPlain": "Convert 2pi/3 radians to degrees.",
               "coldA": "\\(\\dfrac{2\\pi}{3} \\cdot \\dfrac{180^\\circ}{\\pi} = \\dfrac{360^\\circ}{3} = 120^\\circ\\).",
@@ -433,7 +433,7 @@
               "coldPlain": "(a) Draw 240 degrees in standard position and convert it to radians. (b) Draw 3pi/4 in standard position and convert it to degrees.",
               "note": "I drew both angles on paper. I'll either upload a photo or describe each one: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check both drawings.",
               "coldA": "(a) \\(180^\\circ + 60^\\circ\\), Quadrant III. \\(240^\\circ = \\dfrac{4\\pi}{3}\\).[[graph:d240]](b) \\(\\pi - \\dfrac{\\pi}{4}\\), Quadrant II. \\(\\dfrac{3\\pi}{4} = 135^\\circ\\).[[graph:r135]]",
-              "solution": "(a) 240 = 180 + 60: 60 degrees past the negative x-axis, in Quadrant III. 240 * pi/180 = 4pi/3. (b) 3pi/4 is one quarter-slice (pi/4) short of pi, in Quadrant II. 3pi/4 * 180/pi = 135 degrees.",
+              "solution": "(a) 240 = 180 + 60: 60 degrees past the negative x-axis, in Quadrant III. 240 * pi/180 = 4pi/3. (b) 3pi/4 is pi/4, or 45 degrees, short of a half turn (pi), in Quadrant II. 3pi/4 * 180/pi = 135 degrees.",
               "mistake": "Drawing clockwise, or converting in the wrong direction.",
               "again": "(a) Draw \\(330^\\circ\\) and convert it to radians.<br>(b) Draw \\(\\dfrac{5\\pi}{3}\\) and convert it to degrees.",
               "againA": "(a) \\(30^\\circ\\) short of a full turn, Quadrant IV. \\(330^\\circ = \\dfrac{11\\pi}{6}\\).[[graph:d330]](b) \\(2\\pi - \\dfrac{\\pi}{3}\\), Quadrant IV. \\(\\dfrac{5\\pi}{3} = 300^\\circ\\).[[graph:r300]]",
