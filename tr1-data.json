@@ -7,25 +7,25 @@
       "id": "faq-1",
       "category": "conceptual",
       "question": "What is an angle, and what are the initial side, terminal side, and vertex?",
-      "answer": "An angle is formed by two rays joined at a shared starting point, called the vertex. In trigonometry, we think of an angle as a rotation: the initial side is where the angle starts (before any rotation), and the terminal side is where the angle ends up after rotating.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"80\" y1=\"180\" x2=\"230\" y2=\"180\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"80\" y1=\"180\" x2=\"163.6\" y2=\"80.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"80\" cy=\"180\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"50\" y=\"200\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">vertex</text><text x=\"170\" y=\"200\" font-size=\"12\" fill=\"#0a3f52\" font-weight=\"600\">initial side</text><text x=\"165\" y=\"75\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"600\">terminal side</text></svg></div><p class=\"graph-caption\">The angle is the rotation from the initial side to the terminal side, pivoting at the vertex.</p>"
+      "answer": "An angle is formed by two rays joined at a shared starting point, called the vertex. In trigonometry, we think of an angle as a rotation: the initial side is where the angle starts (before any rotation), and the terminal side is where the angle ends up after rotating.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"The angle is the rotation from the initial side to the terminal side, pivoting at the vertex.\" viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"80\" y1=\"180\" x2=\"230\" y2=\"180\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"80\" y1=\"180\" x2=\"163.6\" y2=\"80.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"80\" cy=\"180\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"50\" y=\"200\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">vertex</text><text x=\"170\" y=\"200\" font-size=\"12\" fill=\"#0a3f52\" font-weight=\"600\">initial side</text><text x=\"165\" y=\"75\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"600\">terminal side</text></svg></div><p class=\"graph-caption\">The angle is the rotation from the initial side to the terminal side, pivoting at the vertex.</p>"
     },
     {
       "id": "faq-2",
       "category": "conceptual",
       "question": "What does it mean for an angle to be in standard position?",
-      "answer": "An angle is in standard position when its vertex sits at the origin and its initial side lies exactly along the positive x-axis. This gives every angle a consistent, predictable starting point, which is essential once you start comparing angles or plotting them on the coordinate plane.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"150\" y1=\"150\" x2=\"100\" y2=\"63.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"150\" cy=\"150\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"155\" y=\"170\" font-size=\"11\" fill=\"#1a6b6b\" font-weight=\"700\">vertex at origin</text><text x=\"255\" y=\"155\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">initial side</text><text x=\"55\" y=\"55\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">terminal side</text></svg></div><p class=\"graph-caption\">Standard position: vertex at the origin, initial side along the positive x-axis.</p>"
+      "answer": "An angle is in standard position when its vertex sits at the origin and its initial side lies exactly along the positive x-axis. This gives every angle a consistent, predictable starting point, which is essential once you start comparing angles or plotting them on the coordinate plane.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"Standard position: vertex at the origin, initial side along the positive x-axis.\" viewBox=\"0 0 330 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"220\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#0a3f52\" stroke-width=\"3\"/><line x1=\"150\" y1=\"150\" x2=\"100\" y2=\"63.4\" stroke=\"#D4622A\" stroke-width=\"3\"/><circle cx=\"150\" cy=\"150\" r=\"5\" fill=\"#1a6b6b\"/><text x=\"155\" y=\"170\" font-size=\"11\" fill=\"#1a6b6b\" font-weight=\"700\">vertex at origin</text><text x=\"255\" y=\"155\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">initial side</text><text x=\"55\" y=\"55\" font-size=\"11\" fill=\"#D4622A\" font-weight=\"600\">terminal side</text></svg></div><p class=\"graph-caption\">Standard position: vertex at the origin, initial side along the positive x-axis.</p>"
     },
     {
       "id": "faq-3",
       "category": "conceptual",
       "question": "Why do some angles have a positive measure and others a negative measure?",
-      "answer": "The sign of an angle tells you which direction it was rotated. An angle measured counterclockwise from the initial side is positive; an angle measured clockwise is negative. It's the same amount of rotation either way — the sign just records which direction you turned.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"280\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#4a4a5a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 0 167.5,119.7\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\"/><text x=\"185\" y=\"100\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">+60&deg;</text><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"236.6\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 1 167.5,180.3\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"2\"/><text x=\"185\" y=\"210\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">&minus;60&deg;</text></svg></div><p class=\"graph-caption\">Counterclockwise (teal) is positive; clockwise (orange) is negative — same size angle, opposite direction.</p>"
+      "answer": "The sign of an angle tells you which direction it was rotated. An angle measured counterclockwise from the initial side is positive; an angle measured clockwise is negative. It's the same amount of rotation either way — the sign just records which direction you turned. <em>Beyond TR1:</em> CheckIt's TR1 angles are all positive, between 0° and 360°, so you will not see negative angles on this check.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.\" viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"150\" x2=\"280\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"280\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#4a4a5a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"63.4\" stroke=\"#1a6b6b\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 0 167.5,119.7\" fill=\"none\" stroke=\"#1a6b6b\" stroke-width=\"2\"/><text x=\"185\" y=\"100\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">+60&deg;</text><line x1=\"150\" y1=\"150\" x2=\"200\" y2=\"236.6\" stroke=\"#D4622A\" stroke-width=\"3\"/><path d=\"M 185,150 A 35,35 0 0 1 167.5,180.3\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"2\"/><text x=\"185\" y=\"210\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">&minus;60&deg;</text></svg></div><p class=\"graph-caption\">Counterclockwise (teal, labeled +60°, turning up) is positive; clockwise (orange, labeled −60°, turning down) is negative — same size angle, opposite direction.</p>"
     },
     {
       "id": "faq-4",
       "category": "conceptual",
       "question": "What is a radian, and how is it actually defined?",
-      "answer": "One radian is the measure of a central angle that cuts out an arc exactly as long as the circle's radius. Picture taking the radius of a circle, bending it around the edge of the circle like a piece of string, and marking where it ends — the angle formed at the center is exactly 1 radian.<div class=\"graph-wrap\"><svg viewBox=\"0 0 300 300\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#d4d4d8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#0a3f52\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"204\" y2=\"65.9\" stroke=\"#0a3f52\" stroke-width=\"2.5\"/><path d=\"M 250,150 A 100,100 0 0 0 204,65.9\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"4\"/><text x=\"255\" y=\"110\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">arc length = r</text><text x=\"170\" y=\"140\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">1 radian</text><text x=\"195\" y=\"155\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">r</text></svg></div><p class=\"graph-caption\">When the arc (orange) is exactly as long as the radius, the angle it creates is defined as 1 radian — about 57.3°.</p>"
+      "answer": "One radian is the measure of a central angle that cuts out an arc exactly as long as the circle's radius. Picture taking the radius of a circle, bending it around the edge of the circle like a piece of string, and marking where it ends — the angle formed at the center is exactly 1 radian.<div class=\"graph-wrap\"><svg role=\"img\" aria-label=\"When the arc (orange) is exactly as long as the radius, the angle it creates is defined as 1 radian — about 57.3°.\" viewBox=\"0 0 350 300\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"150\" r=\"100\" fill=\"none\" stroke=\"#d4d4d8\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#0a3f52\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"150\" x2=\"204\" y2=\"65.9\" stroke=\"#0a3f52\" stroke-width=\"2.5\"/><path d=\"M 250,150 A 100,100 0 0 0 204,65.9\" fill=\"none\" stroke=\"#D4622A\" stroke-width=\"4\"/><text x=\"255\" y=\"110\" font-size=\"12\" fill=\"#D4622A\" font-weight=\"700\">arc length = r</text><text x=\"170\" y=\"140\" font-size=\"12\" fill=\"#1a6b6b\" font-weight=\"700\">1 radian</text><text x=\"195\" y=\"155\" font-size=\"11\" fill=\"#0a3f52\" font-weight=\"600\">r</text></svg></div><p class=\"graph-caption\">When the arc (orange) is exactly as long as the radius, the angle it creates is defined as 1 radian — about 57.3°.</p>"
     },
     {
       "id": "faq-5",
@@ -49,7 +49,7 @@
       "id": "faq-8",
       "category": "sticking-points",
       "question": "How do I sketch an angle in standard position if I'm given its measure in degrees?",
-      "answer": "Start by drawing the initial side along the positive x-axis. Then estimate what fraction of a full circle (360°) the angle represents, and rotate the terminal side that fraction of the way around — counterclockwise if positive, clockwise if negative. You don't need to be perfectly precise; the goal is to land in the correct quadrant with a reasonable estimate of the angle.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Sketch \\( 120° \\): since \\( 120° \\) is a bit more than a quarter turn (90°) but less than a half turn (180°), rotate the terminal side counterclockwise into Quadrant II, closer to the negative x-axis than the positive y-axis.</p></div>"
+      "answer": "Start by drawing the initial side along the positive x-axis. Then estimate what fraction of a full circle (360°) the angle represents, and rotate the terminal side that fraction of the way around — counterclockwise if positive, clockwise if negative. You don't need to be perfectly precise, but CheckIt's TR1 angles are multiples of 30° and 45°, so aim for the right 30° or 45° mark, not just the right quadrant: 300° and 330° are both in Quadrant IV but are different drawings.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Sketch \\( 120° \\): since \\( 120° \\) is a bit more than a quarter turn (90°) but less than a half turn (180°), rotate the terminal side counterclockwise into Quadrant II, 30° past the positive y-axis, so closer to the positive y-axis than to the negative x-axis.</p></div>"
     },
     {
       "id": "faq-9",
@@ -61,13 +61,13 @@
       "id": "faq-10",
       "category": "sticking-points",
       "question": "How do I know which direction to draw an angle — clockwise or counterclockwise?",
-      "answer": "Check the sign. A positive angle measure always means counterclockwise rotation from the initial side; a negative angle measure always means clockwise rotation. If no sign is written, assume positive (counterclockwise)."
+      "answer": "Check the sign. A positive angle measure always means counterclockwise rotation from the initial side; a negative angle measure always means clockwise rotation. If no sign is written, assume positive (counterclockwise). <em>Beyond TR1:</em> CheckIt's TR1 angles are all positive, between 0° and 360°, so you will not see negative angles on this check."
     },
     {
       "id": "faq-11",
       "category": "sticking-points",
       "question": "Why do radian measures often involve π, and what does a value like 7π/6 actually mean?",
-      "answer": "Since a full circle is exactly 2π radians, most radian angles you'll work with are convenient fractions of 2π — which naturally keeps π in the expression rather than converting to a decimal. A value like 7π/6 means: take π (a half turn, or 6π/6) and add one more sixth of π on top of it, landing just past the halfway point of the circle. Thinking of the denominator as \"how many equal slices the circle is cut into\" and the numerator as \"how many of those slices you've rotated through\" makes these values much easier to visualize."
+      "answer": "Since a full circle is exactly 2π radians, most radian angles you'll work with are convenient fractions of 2π — which naturally keeps π in the expression rather than converting to a decimal. A value like 7π/6 means: take π (a half turn, or 6π/6) and add one more sixth of π on top of it, landing just past the halfway point of the circle. Thinking of the denominator as \"how many equal slices π, the half turn, is cut into\" and the numerator as \"how many of those slices you've rotated through\" makes these values much easier to visualize."
     },
     {
       "id": "faq-12",
@@ -109,7 +109,7 @@
       "id": "vid-3",
       "title": "Plot Negative Angles in Degrees in Standard Position and Convert to Radians",
       "url": "https://youtu.be/-iwa-u0vDIw",
-      "description": "Sketching a negative (clockwise) angle given in degrees, then converting it to radians.",
+      "description": "Sketching a negative (clockwise) angle given in degrees, then converting it to radians. (Beyond TR1: CheckIt's TR1 angles are positive.)",
       "category": "standard-position",
       "relatedFaqs": [
         "faq-3",
@@ -132,7 +132,7 @@
       "id": "vid-5",
       "title": "Plot Negative Angles in Radians in Standard Position and Convert to Degrees",
       "url": "https://youtu.be/qkMJhj9L0eQ",
-      "description": "Sketching a negative angle given in radians, then converting it to degrees.",
+      "description": "Sketching a negative angle given in radians, then converting it to degrees. (Beyond TR1: CheckIt's TR1 angles are positive.)",
       "category": "standard-position",
       "relatedFaqs": [
         "faq-3",
@@ -187,7 +187,7 @@
       "id": "app-2",
       "title": "Coterminal Angles",
       "url": "https://coterminalunitcircle.netlify.app/",
-      "description": "Practice plotting angles in standard position and identifying coterminal angles on the unit circle.",
+      "description": "Practice plotting angles in standard position and identifying coterminal angles on the unit circle. Coterminal angles are TR2; this app also previews them.",
       "relatedFaqs": [
         "faq-2",
         "faq-3",
@@ -262,7 +262,7 @@
               "cold": "Simplify \\(\\dfrac{150}{180}\\) and \\(\\dfrac{240}{180}\\).",
               "coldPlain": "Simplify 150/180 and 240/180.",
               "coldA": "\\(\\dfrac{150}{180} = \\dfrac{5}{6}\\) (divide by 30). \\(\\dfrac{240}{180} = \\dfrac{4}{3}\\) (divide by 60).",
-              "solution": "150/180: both divide by 30, giving 5/6. 240/180: both divide by 60, giving 4/3. If you do not see the biggest factor, divide by 10 first, then keep going.",
+              "solution": "150/180: both divide by 30, giving 5/6. 240/180: both divide by 60, giving 4/3. If you do not see the biggest factor, divide by any common factor first (10, 5, 9 or 15 often work), then keep going.",
               "mistake": "Stopping partway, like 15/18 instead of 5/6.",
               "again": "Simplify \\(\\dfrac{315}{180}\\) and \\(\\dfrac{90}{180}\\).",
               "againA": "\\(\\dfrac{7}{4}\\) (divide by 45) and \\(\\dfrac{1}{2}\\).",
@@ -281,11 +281,11 @@
               "cold": "In which quadrant (or on which axis) does each angle end? \\(120^\\circ\\), \\(300^\\circ\\), \\(225^\\circ\\)",
               "coldPlain": "In which quadrant (or on which axis) does each angle end: 120 degrees, 300 degrees, 225 degrees?",
               "coldA": "\\(120^\\circ\\): Quadrant II. \\(300^\\circ\\): Quadrant IV. \\(225^\\circ\\): Quadrant III.",
-              "solution": "Quadrant I is 0 to 90 degrees, II is 90 to 180, III is 180 to 270, IV is 270 to 360. So 120 is in II, 300 in IV, and 225 in III.",
+              "solution": "Quadrant I is strictly between 0 and 90 degrees, II between 90 and 180, III between 180 and 270, IV between 270 and 360; 90, 180 and 270 land on an axis. So 120 is in II, 300 in IV, and 225 in III.",
               "mistake": "Counting quadrants clockwise, or starting from the y-axis.",
               "again": "Where does each angle end? \\(45^\\circ\\), \\(270^\\circ\\), \\(170^\\circ\\)",
               "againA": "\\(45^\\circ\\): Quadrant I. \\(270^\\circ\\): on the negative \\(y\\)-axis (not in a quadrant). \\(170^\\circ\\): Quadrant II.",
-              "reflect": "Which four angles land exactly on an axis?",
+              "reflect": "Which angles between 0° and 360° land exactly on an axis?",
               "related": [
                 {
                   "label": "FAQs",
@@ -316,7 +316,7 @@
               "note": "I drew the angle on paper. I'll either upload a photo or describe it: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check my drawing.",
               "coldA": "Go past \\(90^\\circ\\) by another \\(45^\\circ\\), halfway into Quadrant II.[[graph:d135]]",
               "solution": "Start on the positive x-axis and rotate counterclockwise. 135 = 90 + 45, so pass the positive y-axis and go 45 degrees more: exactly halfway between the positive y-axis and the negative x-axis, in Quadrant II. Draw an arc with an arrow to show the direction.",
-              "mistake": "Rotating clockwise, or forgetting the arc that shows the rotation.",
+              "mistake": "Rotating clockwise, or forgetting the arc that shows the rotation. (CheckIt's own answer picture shows a small arc without an arrowhead; drawing the arrow is still good practice.)",
               "again": "Draw \\(300^\\circ\\) in standard position.",
               "againA": "\\(300^\\circ = 360^\\circ - 60^\\circ\\): stop \\(60^\\circ\\) short of a full turn, in Quadrant IV.[[graph:d300]]",
               "stretch": "Draw \\(210^\\circ\\).",
@@ -431,7 +431,7 @@
               "target": "Draw a degree angle and a radian angle in standard position, and convert each to the other unit.",
               "cold": "(a) Draw \\(240^\\circ\\) in standard position. Convert it to radians.<br>(b) Draw \\(\\dfrac{3\\pi}{4}\\) in standard position. Convert it to degrees.",
               "coldPlain": "(a) Draw 240 degrees in standard position and convert it to radians. (b) Draw 3pi/4 in standard position and convert it to degrees.",
-              "note": "I drew the angle on paper. I'll either upload a photo or describe it: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check my drawing.",
+              "note": "I drew both angles on paper. I'll either upload a photo or describe each one: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far past the nearest axis it is. Check both drawings.",
               "coldA": "(a) \\(180^\\circ + 60^\\circ\\), Quadrant III. \\(240^\\circ = \\dfrac{4\\pi}{3}\\).[[graph:d240]](b) \\(\\pi - \\dfrac{\\pi}{4}\\), Quadrant II. \\(\\dfrac{3\\pi}{4} = 135^\\circ\\).[[graph:r135]]",
               "solution": "(a) 240 = 180 + 60: 60 degrees past the negative x-axis, in Quadrant III. 240 * pi/180 = 4pi/3. (b) 3pi/4 is one quarter-slice (pi/4) short of pi, in Quadrant II. 3pi/4 * 180/pi = 135 degrees.",
               "mistake": "Drawing clockwise, or converting in the wrong direction.",

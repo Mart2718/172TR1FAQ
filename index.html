@@ -226,6 +226,7 @@
   .resource-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
   .resource-card h3 { font-size: 1rem; font-weight: 700; color: var(--teal-dark); margin-bottom: 0.5rem; }
   .resource-card p { font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.5; }
+  .resource-card a, .video-card-body a { color: #a84d16 !important; }
   .resource-card a {
     display: inline-flex;
     align-items: center;
@@ -538,7 +539,7 @@
   </div>
 
   <div class="tab-panel" id="panel-videos" role="tabpanel" aria-labelledby="tab-videos">
-    <p class="section-intro">Video explanations and walkthroughs for this section, curated from <a href="https://www.mathispower4u.com" target="_blank" rel="noopener noreferrer" style="color:var(--orange);font-weight:600;">Mathispower4u</a> by James Sousa.</p>
+    <p class="section-intro">Video explanations and walkthroughs for this section, curated from <a href="https://www.mathispower4u.com" target="_blank" rel="noopener noreferrer" style="color:#a84d16;font-weight:600;">Mathispower4u</a> by James Sousa.</p>
     <div id="videos-grid"></div>
   </div>
 
@@ -890,7 +891,7 @@ A common mistake to watch for: ${s.mistake}`;
               <div class="gl-step s2"><h4>2. Work it through with an AI tutor</h4>
                 <p>Copy this prompt into ChatGPT, Claude, or Gemini. Keep going until the tutor says you're ready.</p>
                 <p style="margin-top:0.5rem;"><button class="copy-btn gl-copy" data-id="${s.id}" type="button">Copy tutor prompt</button></p>
-                <details class="gl-reveal"><summary>See what the prompt says</summary><div class="gl-prompt-preview">${esc(buildPrompt(s))}</div></details>
+                <details class="gl-reveal"><summary>See what the prompt says</summary><div class="gl-prompt-preview" tabindex="0" role="region" aria-label="Prompt text">${esc(buildPrompt(s))}</div></details>
                 ${s.related && s.related.length ? `<div class="gl-related"><span>Want another way in?</span>${s.related.map(r => `<button class="gl-link" type="button" data-tab="${r.tab}">${r.label}</button>`).join('')}</div>` : ''}
               </div>
               <div class="gl-step"><h4>3. Try again on your own</h4>
