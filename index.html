@@ -233,7 +233,7 @@
     gap: 0.4rem;
     font-size: 0.88rem;
     font-weight: 600;
-    color: var(--orange);
+    color: #a84d16;
     text-decoration: none;
     transition: color 0.15s;
   }
@@ -263,7 +263,7 @@
     gap: 0.35rem;
     font-size: 0.82rem;
     font-weight: 600;
-    color: var(--orange);
+    color: #a84d16;
     text-decoration: none;
   }
   .video-card-body a:hover { color: var(--teal-dark); }
@@ -287,6 +287,11 @@
   .example-box .math-line { font-size: 0.93rem; margin: 0.35rem 0; color: var(--text-secondary); }
   .graph-wrap { display: flex; justify-content: center; margin: 1.25rem 0; }
   .graph-wrap svg { max-width: 100%; height: auto; }
+  .graph-wrap.scroll-fig { overflow-x: auto; justify-content: flex-start; max-width: 100%; }
+  .graph-wrap.scroll-fig svg { margin: 0 auto; flex: none; }
+  .accordion-panel-inner .graph-wrap.scroll-fig svg { min-width: 300px; }
+  .gl-step .graph-wrap.scroll-fig svg { min-width: 220px; }
+  .graph-wrap.scroll-fig:focus-visible { outline: 3px solid #1a6b6b; outline-offset: 2px; }
   .graph-caption { text-align: center; font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.4rem; font-style: italic; }
 
   .empty-state { text-align: center; padding: 3rem 1rem; color: var(--text-secondary); font-size: 0.93rem; }
@@ -351,6 +356,36 @@
   .copy-btn.copied { background: #16a34a; }
 
   .section-intro { font-size: 0.93rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 1.5rem; max-width: 680px; }
+
+  .page-footer {
+    background: var(--teal-light);
+    border-top: 1px solid var(--border-light);
+    padding: 2rem 1.5rem;
+    margin-top: 2rem;
+  }
+  .footer-inner {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .footer-inner h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--teal-dark);
+    margin-bottom: 0.75rem;
+  }
+  .footer-inner p {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+  }
+  .footer-inner p:last-child { margin-bottom: 0; }
+  .footer-inner a {
+    color: #a84d16;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .footer-inner a:hover { text-decoration: underline; }
 
   @media (max-width: 640px) {
     .tab-nav { overflow-x: auto; padding: 0 1rem; }
@@ -424,7 +459,7 @@
   .gl-step .graph-wrap { overflow-x: auto; }
   .g-grid { stroke: var(--border-light); stroke-width: 1; }
   .g-axis { stroke: var(--text-secondary); stroke-width: 1.5; }
-  .g-label { fill: var(--text-secondary); font: 10px 'Inter', sans-serif; stroke: var(--bg-card); stroke-width: 3px; paint-order: stroke; }
+  .g-label { fill: var(--text-secondary); font: 12px 'Inter', sans-serif; stroke: var(--bg-card); stroke-width: 3px; paint-order: stroke; }
   .g-line { fill: none; stroke: #1d4ed8; stroke-width: 3; stroke-linejoin: round; }
   .g-dot, .g-name { fill: #1d4ed8; }
   .g-name { font: 600 12px 'Inter', sans-serif; }
@@ -454,7 +489,7 @@
   table.lookup th, table.lookup td { border: 1px solid var(--border); padding: 4px 12px; text-align: center; color: var(--text-primary); }
   table.lookup th { background: var(--teal-light); }
   .g-sym { stroke: #b04c19; stroke-width: 1.5; stroke-dasharray: 5 4; }
-  .g-ghost { fill: none; stroke: #9ca3af; stroke-width: 2; stroke-dasharray: 5 4; }
+  .g-ghost { fill: none; stroke: #6b7280; stroke-width: 2; stroke-dasharray: 5 4; }
   .g-init { stroke: #4a4a5a; stroke-width: 2.5; }
   .g-ray { stroke: #1d4ed8; stroke-width: 3; }
   .g-arc { fill: none; stroke: #b04c19; stroke-width: 2; }
@@ -544,6 +579,14 @@
   </div>
 
 </main>
+<footer class="page-footer" role="contentinfo">
+  <div class="footer-inner">
+    <h2>Sources &amp; Credits</h2>
+    <p>Content on this page adapts definitions and examples from <a href="https://github.com/TeamBasedInquiryLearning/library" target="_blank" rel="noopener noreferrer">TBIL Precalculus</a> by Steven Clontz and Drew Lewis, used under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a>. Video content curated from <a href="https://www.mathispower4u.com" target="_blank" rel="noopener noreferrer">Mathispower4u</a> (James Sousa).</p>
+    <p><strong>AI use statement:</strong> FAQ text, diagrams, and this page's structure were drafted using Claude (Anthropic) based on TBIL source content, with guidance, review, and editing by Dr. Marty Romero.</p>
+    <p>This page is licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0</a> and freely available for reuse and adaptation under the same terms.</p>
+  </div>
+</footer>
 
 <script>
 // ===== DATA =====
@@ -649,7 +692,7 @@ function renderVideos() {
   }
 
   const categoryLabels = {
-    'standard-position': { title: 'Angles in Standard Position', desc: 'Start here — sketching positive and negative angles in degrees and radians' },
+    'standard-position': { title: 'Angles in Standard Position', desc: 'Start here — sketching angles in degrees and radians (negative angles are an extension)' },
     'radians-conversion': { title: 'Radians & Conversion', desc: 'What a radian is, and converting between degrees and radians' }
   };
   const categoryOrder = ['standard-position', 'radians-conversion'];
@@ -835,7 +878,14 @@ function buildOnePath(P, host) {
 
   const withGraphs = html => (html || '').replace(/\[\[graph:([A-Za-z0-9_-]+)\]\]/g, (m, k) => (P.graphs && P.graphs[k]) || '');
   const esc = t => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  const strip = t => t.replace(/<[^>]+>/g, '').replace(/\\\(|\\\)/g, '').replace(/\\le\b/g, '<=').replace(/\\ge\b/g, '>=').replace(/\\pm/g, '+/-').replace(/\\cup/g, 'U').replace(/\\infty/g, 'infinity');
+  const strip = t => {
+    let s = t.replace(/<\/?[A-Za-z][^>]*>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/\\\(|\\\)/g, '');
+    for (let i = 0; i < 3; i++) s = s.replace(/\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}/g, '($1)/($2)');
+    s = s.replace(/\\sqrt\{([^{}]*)\}/g, 'sqrt($1)').replace(/\\(left|right|big|Big)/g, '')
+         .replace(/\\le\b/g, '<=').replace(/\\ge\b/g, '>=').replace(/\\pm/g, '+/-').replace(/\\cup/g, 'U').replace(/\\infty/g, 'infinity')
+         .replace(/([A-Za-z0-9])\\(arcsin|arccos|arctan|sin|cos|tan|sec|csc|cot)\b/g, '$1 $2').replace(/\\(arcsin|arccos|arctan|sin|cos|tan|sec|csc|cot)(?=\\[A-Za-z])/g, '$1 ').replace(/\\(arcsin|arccos|arctan|sin|cos|tan|sec|csc|cot|pi|theta|alpha)\b/g, '$1').replace(/\\ldots/g, '...').replace(/\\'/g, "'").replace(/\^\\circ/g, ' degrees').replace(/\\[,;: ]/g, ' ').replace(/[{}]/g, '');
+    return s.replace(/\(([A-Za-z0-9]+)\)\/\(([A-Za-z0-9]+)\)/g, '$1/$2');
+  };
   const reveal = (label, html) => `<details class="gl-reveal"><summary>${label}</summary><div class="gl-answer">${html}</div></details>`;
 
   function buildPrompt(s) {
