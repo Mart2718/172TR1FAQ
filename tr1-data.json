@@ -67,7 +67,7 @@
       "id": "faq-11",
       "category": "sticking-points",
       "question": "Why do radian measures often involve π, and what does a value like 7π/6 actually mean?",
-      "answer": "Since a full turn is exactly 2π radians, familiar angles have measures that are convenient fractions of π, so we keep π in the expression rather than converting to a decimal. In 7π/6, each slice measures π/6, or 30°. Six slices make a half turn (π), and twelve make a full turn (2π). Seven slices give 210°, which puts the terminal side 30° past the negative x-axis, in Quadrant III. The denominator tells you how many equal slices make a half turn; the numerator tells you how many of those slices you rotate through. Reading radians this way makes them much easier to picture. (Radian measures don't have to contain π; 1 or 2 radians are angles too. The angles in the TR1 CheckIt exercise are multiples of π/6 or π/4, such as π/6, 3π/4 and π itself (CheckIt writes 180° as just π).)"
+      "answer": "Since a full turn is exactly 2π radians, familiar angles have measures that are convenient fractions of π, so we keep π in the expression rather than converting to a decimal. In 7π/6, each slice measures π/6, or 30°. Six slices make a half turn (π), and twelve make a full turn (2π). Seven slices give 210°, which puts the terminal side 30° past the negative x-axis, in Quadrant III. When the angle is written as a fraction of π, the denominator tells you how many equal slices make a half turn; the numerator tells you how many of those slices you rotate through. Reading radians this way makes them much easier to picture. (Radian measures don't have to contain π; 1 or 2 radians are angles too. The angles in the TR1 CheckIt exercise are multiples of π/6 or π/4, such as π/6, 3π/4 and π itself (CheckIt writes 180° as just π).)"
     },
     {
       "id": "faq-12",
@@ -79,7 +79,7 @@
       "id": "faq-13",
       "category": "connections",
       "question": "Why do radians matter beyond just being another unit for angles?",
-      "answer": "Radians aren't just a different way to write the same angle — they connect an angle directly to actual distance along a circle, since the radian definition is built from arc length and radius. This connection becomes essential in later math and physics: arc length, angular velocity, and eventually calculus with trig functions all rely on radians specifically, because degrees don't have that same built-in relationship to distance."
+      "answer": "Radians aren't just a different way to write the same angle — they connect an angle directly to actual distance along a circle, since the radian definition is built from arc length and radius. Radians make these relationships especially simple: arc length is \\( s=r\\theta \\) when \\( \\theta \\) is in radians, with no extra conversion factor, and angular velocity works the same way. Degrees can describe these quantities too, but only with a conversion factor. Radians also give the standard forms of the calculus formulas for trig functions."
     }
   ],
   "videos": [
@@ -401,7 +401,7 @@
               "note": "I drew the angle on paper. I'll either upload a photo or describe it: where the initial side is, which direction I rotated, which quadrant or axis the terminal side ends in, and how far it is from the nearest axis (past it or short of it). Check my drawing.",
               "coldA": "\\(\\pi\\) is a half turn cut into 6 slices, so a full turn \\(2\\pi\\) is 12 slices; go 11 of them. That is \\(\\dfrac{\\pi}{6}\\) short of the positive \\(x\\)-axis, in Quadrant IV.[[graph:r330]]",
               "solution": "Each slice is pi/6, or 30 degrees. pi is 6 slices (a half turn) and 2pi is 12 slices (a full turn). 11pi/6 is 11 slices: one slice short of a full turn, just below the positive x-axis, in Quadrant IV. If it helps, convert: 11pi/6 = 330 degrees.",
-              "mistake": "Cutting the whole circle into 6 slices instead of the half turn, which makes 11pi/6 look like almost two full turns.",
+              "mistake": "Cutting the whole circle into 6 slices instead of the half turn, which makes 11pi/6 look like almost two full turns. (As with degree drawings, CheckIt's answer picture marks the angle with a small arc labelled with its measure. Putting an arrow on the arc to show the direction of the turn is still good practice.)",
               "again": "Draw \\(\\dfrac{7\\pi}{6}\\) and \\(\\dfrac{\\pi}{4}\\).",
               "againA": "\\(\\dfrac{7\\pi}{6} = \\pi + \\dfrac{\\pi}{6}\\): one \\(\\dfrac{\\pi}{6}\\) slice past the negative \\(x\\)-axis, in Quadrant III.[[graph:r210]]\\(\\dfrac{\\pi}{4}\\): halfway to the positive \\(y\\)-axis, Quadrant I.[[graph:r45]]",
               "reflect": "How can comparing a radian angle to \\(\\pi\\) and \\(2\\pi\\) tell you where it lands?",
