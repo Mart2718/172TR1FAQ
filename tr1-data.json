@@ -37,13 +37,13 @@
       "id": "faq-6",
       "category": "sticking-points",
       "question": "How do I convert an angle from degrees to radians?",
-      "answer": "Multiply the degree measure by π/180°. This works because 180° and π radians represent the exact same amount of rotation (half a circle), so π radians/180° is just a conversion factor equal to 1.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( 60° \\) to radians:</p><p class=\"math-line\">\\( 60° \\times \\dfrac{\\pi}{180°} = \\dfrac{60\\pi}{180} = \\dfrac{\\pi}{3} \\)</p></div>"
+      "answer": "Multiply the degree measure by π/180°. This works because 180° and π radians represent the exact same amount of rotation (half a circle), so π radians/180° is just a conversion factor equal to 1.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( 210^\\circ \\) to radians:</p><p class=\"math-line\">\\( 210^\\circ \\times \\dfrac{\\pi}{180^\\circ} = \\dfrac{210\\pi}{180} = \\dfrac{7\\pi}{6} \\)</p></div>"
     },
     {
       "id": "faq-7",
       "category": "sticking-points",
       "question": "How do I convert an angle from radians to degrees?",
-      "answer": "Multiply the radian measure by 180°/π — the same conversion factor as in degrees to radians, just flipped upside down since you're converting in the opposite direction.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( \\dfrac{\\pi}{6} \\) to degrees:</p><p class=\"math-line\">\\( \\dfrac{\\pi}{6} \\times \\dfrac{180°}{\\pi} = \\dfrac{180°}{6} = 30° \\)</p></div>"
+      "answer": "Multiply the radian measure by 180°/π — the same conversion factor as in degrees to radians, just flipped upside down since you're converting in the opposite direction.<div class=\"example-box\"><div class=\"label\">Worked Example</div><p class=\"math-line\">Convert \\( \\dfrac{3\\pi}{2} \\) to degrees:</p><p class=\"math-line\">\\( \\dfrac{3\\pi}{2} \\times \\dfrac{180^\\circ}{\\pi} = \\dfrac{540^\\circ}{2} = 270^\\circ \\)</p></div>"
     },
     {
       "id": "faq-8",
@@ -349,6 +349,8 @@
               "mistake": "Multiplying by 180/pi (the wrong direction): 135 * 180/pi = 24300/pi, about 7735, which is far too big to be part of one turn.",
               "again": "Convert \\(210^\\circ\\) and \\(300^\\circ\\) to radians.",
               "againA": "\\(210^\\circ = \\dfrac{7\\pi}{6}\\) and \\(300^\\circ = \\dfrac{5\\pi}{3}\\).",
+              "stretch": "Convert \\(90^\\circ\\) and \\(180^\\circ\\) to radians.",
+              "stretchA": "\\(90^\\circ = \\dfrac{90\\pi}{180} = \\dfrac{\\pi}{2}\\) and \\(180^\\circ = \\dfrac{180\\pi}{180} = \\pi\\). CheckIt writes the second answer as just \\(\\pi\\), not \\(\\dfrac{\\pi}{1}\\) or \\(1\\pi\\).",
               "reflect": "How do you remember which fraction to multiply by?",
               "related": [
                 {
